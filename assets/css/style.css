@@ -8833,3 +8833,14 @@ del {
 
     padding: 5px;
     border-radius: 5px;
+
+}
+
+.slicknav_btn {
+    background: none;
+    text-shadow: none;
+}
+
+.slicknav_menu .slicknav_menutxt {
+    text-shadow: none;
+}
