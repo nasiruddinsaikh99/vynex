@@ -5094,9 +5094,7 @@ li {
     color: #fff
 }
 
-.header-btn2 {
-    padding: 12px 21px !important
-}
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-btn2 {
@@ -8793,3 +8791,45 @@ del {
 .switch-wrap {
     margin-bottom: 10px
 }
+.success-alert {
+  background-color: #dff0d8;
+  color: #3e8e41;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.alert-icon {
+  background-color: #3e8e41;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.alert-message {
+  flex-grow: 1;
+}
+
+.alert-close {
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.alert-close:hover {
+  color: #f00;
+}
+
+.header-btn2.border-btn2 {
+    line-height: 1;
+    padding: 15px 34px 13px 34px !important;
+}
+.slicknav_menu {
+    font-size: 16px;
+    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%);
+
+    padding: 5px;
+    border-radius: 5px;

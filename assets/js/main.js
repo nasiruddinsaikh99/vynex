@@ -168,5 +168,7 @@ $('.counter').counterUp({
   time: 3000
 });
 
-
+document.querySelector('.alert-close').addEventListener('click', function() {
+  document.querySelector('.success-alert').style.display = 'none';
+});
 })(jQuery);

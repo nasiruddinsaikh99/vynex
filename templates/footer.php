@@ -112,7 +112,7 @@
     <script src="./assets/js/counterup.min.js"></script>
     <script src="./assets/js/waypoints.min.js"></script>
 
-    <script src="./assets/js/contact.js"></script>
+    <!-- <script src="./assets/js/contact.js"></script> -->
     <script src="./assets/js/jquery.form.js"></script>
     <script src="./assets/js/jquery.validate.min.js"></script>
     <script src="./assets/js/mail-script.js"></script>
