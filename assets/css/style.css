@@ -912,11 +912,11 @@ li {
     }
 }
 
-@media (max-width: 575px) {
+/*@media (max-width: 575px) {
     .header-area .main-header.header-sticky.sticky-bar .button-header {
         display: none !important
     }
-}
+}*/
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .header-area .main-header .logo {
@@ -5119,7 +5119,7 @@ li {
         padding: 8px 15px !important;
         position: absolute;
         right: 17px;
-        top: 59px
+        top: 5px
     }
 }
 
@@ -5308,11 +5308,11 @@ li {
     }
 }
 
-@media (max-width: 575px) {
+/*@media (max-width: 575px) {
     .header-area .main-header.header-sticky.sticky-bar .button-header {
         display: none !important
     }
-}
+}*/
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .header-area .main-header .logo {
