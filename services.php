@@ -76,7 +76,7 @@
 
                 <div class="row mb-4">
                     <div class="col-md-9">
-                        <h2 class="mb-4">Why Choose Vynex?</h2>
+                        <h2 class="mb-4">Why Choose Syntrex?</h2>
                         <ul>
                             <li>Agile development methodologies</li>
                             <li>Collaborative approach</li>

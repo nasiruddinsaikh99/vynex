@@ -4,16 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Vynex Software Solutions | Innovative IT and Software Services</title>
-    <meta name="description" content="Vynex Software Solutions offers cutting-edge IT services and innovative software solutions, transforming businesses with the latest technology.">
+    <title>Syntrex Software Solutions | Innovative IT and Software Services</title>
+    <meta name="description" content="Syntrex Software Solutions offers cutting-edge IT services and innovative software solutions, transforming businesses with the latest technology.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="IT services, software solutions, innovative technology, business transformation, Vynex Software Solutions">
-    <meta name="author" content="Vynex Software Solutions">
-    <meta property="og:title" content="Vynex Software Solutions | Innovative IT and Software Services">
-    <meta property="og:description" content="Vynex Software Solutions offers cutting-edge IT services and innovative software solutions, transforming businesses with the latest technology.">
-    <meta property="og:url" content="https://www.vynex.io">
-    <meta name="twitter:title" content="Vynex Software Solutions | Innovative IT and Software Services">
-    <meta name="twitter:description" content="Vynex Software Solutions offers cutting-edge IT services and innovative software solutions, transforming businesses with the latest technology.">
+    <meta name="keywords" content="IT services, software solutions, innovative technology, business transformation, Syntrex Software Solutions">
+    <meta name="author" content="Syntrex Software Solutions">
+    <meta property="og:title" content="Syntrex Software Solutions | Innovative IT and Software Services">
+    <meta property="og:description" content="Syntrex Software Solutions offers cutting-edge IT services and innovative software solutions, transforming businesses with the latest technology.">
+    <meta property="og:url" content="https://www.syntrex.io">
+    <meta name="twitter:title" content="Syntrex Software Solutions | Innovative IT and Software Services">
+    <meta name="twitter:description" content="Syntrex Software Solutions offers cutting-edge IT services and innovative software solutions, transforming businesses with the latest technology.">
 
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -39,7 +39,7 @@
                             <div class="menu-wrapper d-flex align-items-center justify-content-between">
                                 <div class="left-content d-flex align-items-center">
                                     <div class="logo mr-30">
-                                        <a href="index.php"><h1>vynex</h1></a>
+                                        <a href="index.php"><h1>syntrex</h1></a>
                                     </div>
 
                                     <div class="main-menu d-none d-lg-block">

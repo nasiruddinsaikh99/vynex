@@ -22,7 +22,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-10 ">
                     	<h4>Our Story</h4>
-                    	<p class="mb-4">At Vynex, we believe that technology has the power to transform businesses and drive growth. Our journey began with a simple idea - to harness the potential of innovative software solutions to empower companies and help them thrive.</p>
+                    	<p class="mb-4">At Syntrex, we believe that technology has the power to transform businesses and drive growth. Our journey began with a simple idea - to harness the potential of innovative software solutions to empower companies and help them thrive.</p>
 
                     	<h4 class="mt-3">Our Mission</h4>
                     	<p class="mb-4">Our mission is to deliver exceptional software solutions that meet the unique needs of our clients. We're dedicated to fostering long-term relationships, driving business success, and making a positive impact through our work.</p>
@@ -52,7 +52,7 @@
                     <div class="col-xl-8 col-lg-9  col-md-12">
 
                         <div class="section-tittle text-center mb-60">
-                            <h2>Vynex - Partner for Your Business </h2>
+                            <h2>Syntrex - Partner for Your Business </h2>
                             <p class="mb-55">We understand the complexities of modern markets and translate them into real business solutions for automotive, financial, insurance, pharma & life sciences, and real estate with more to come.</p>
                             <a href="#" class="border-btn">Request a Quote</a>
                         </div>

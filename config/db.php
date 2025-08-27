@@ -1,8 +1,8 @@
 <?php
 // Database configuration
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "vynex";
+$password = "vyn3x#!";
 $dbname = "vynex";
 
 // Create connection

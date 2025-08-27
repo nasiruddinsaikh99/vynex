@@ -8,7 +8,7 @@
                                 <div class="single-footer-caption mb-30">
 
                                     <div class="footer-logo mb-35">
-                                        <a href="index.php"><h1>vynex</h1></a>
+                                        <a href="index.php"><h1>syntrex</h1></a>
                                     </div>
                                     <div class="footer-tittle">
                                         <div class="footer-pera">
@@ -17,7 +17,7 @@
                                     </div>
                                     <ul class="mb-20">
                                         <li class="number"><a href="#">+1 213 221 8040</a></li>
-                                        <li class="number2"><a href="mailto:info@vynex.io"><span class="">info@vynex.io</span></a></li>
+                                        <li class="number2"><a href="mailto:info@syntrex.io"><span class="">info@syntrex.io</span></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@
                         <div class="row">
                             <div class="col-xl-12 ">
                                 <div class="footer-copy-right text-center">
-                                    <p>Copyright &copy; 2024 Vynex Software Solutions | All Rights Reserved
+                                    <p>Copyright &copy; 2024 Syntrex Software Solutions | All Rights Reserved
                                     </p>
                                 </div>
                             </div>

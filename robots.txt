@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and configuration files
+Disallow: /config/
+Disallow: /templates/
+Disallow: /contact_process.php
+Disallow: /blog.php
+Disallow: /article.php
+
+Disallow: /cdn-cgi/l/email-protection
+
+# Allow assets
+Allow: /assets/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/img/
+Allow: /assets/fonts/
+
+# Sitemap location
+Sitemap: https://www.syntrex.io/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1 

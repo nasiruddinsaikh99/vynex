@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', 1);
 require_once('config/db.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -13,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 	if (mysqli_query($conn, $sql)) {
 	  echo "New record created successfully";
-	  header("location: /vynex/contact.php?alert=1");
+	  header("location: contact.php?alert=1");
 	  exit();
 	} else {
 	  echo "Error: " . $sql . "<br>" . mysqli_error($conn);
