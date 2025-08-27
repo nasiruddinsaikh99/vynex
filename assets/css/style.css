@@ -7670,11 +7670,11 @@ li {
 }
 
 .btn::before {
-    background: #ff6d6d;
-    background: -moz-linear-gradient(top, #ff6d6d 0%, #ff4495 100%);
+    background: linear-gradient(90deg, var(--accent-2), var(--accent));
+    /* background: -moz-linear-gradient(top, #ff6d6d 0%, #ff4495 100%);
     background: -webkit-linear-gradient(top, #ff6d6d 0%, #ff4495 100%);
     background: linear-gradient(to bottom, #ff6d6d 0%, #ff4495 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6d6d', endColorstr='#ff4495', GradientType=0)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6d6d', endColorstr='#ff4495', GradientType=0) */
 }
 
 .text-heading {

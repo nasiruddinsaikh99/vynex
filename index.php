@@ -1,25 +1,6 @@
 <?php require_once('templates/header.php') ?>
     <main>
 
-        <div class="slider-area  ">
-            <div class="single-sliders slider-height   d-flex align-items-center">
-                <div class="container position-relative">
-                    <div class="row align-items-center">
-                        <div class="col-xl-6 col-lg-7 col-md-7">
-                            <div class="hero-caption">
-                                <h1>Innovative Software Services and IT Solutions</h1>
-                                <P>Transforming businesses through innovative software solutions. Empowering success in a rapidly changing digital landscape.</P>
-                                <a href="services.php" class="btn hero-btn">Our Services</a>
-                            </div>
-                        </div>
-
-                        <div class="hero-shape">
-                            <img src="assets/img/hero/hero-img.png" alt>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
         <section class="categories-area section-padding">

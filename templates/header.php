@@ -15,8 +15,8 @@
     <meta name="twitter:title" content="Syntrex Software Solutions | Innovative IT and Software Services">
     <meta name="twitter:description" content="Syntrex Software Solutions offers cutting-edge IT services and innovative software solutions, transforming businesses with the latest technology.">
 
-
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/slicknav.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
@@ -25,50 +25,286 @@
     <link rel="stylesheet" href="assets/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=1">
     <link rel="stylesheet" href="assets/css/override.css">
 </head>
 
 <body>
-    <header>
-        <div class="header-area header-transparent">
-            <div class="main-header header-sticky">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="menu-wrapper d-flex align-items-center justify-content-between">
-                                <div class="left-content d-flex align-items-center">
-                                    <div class="logo mr-30">
-                                        <a href="index.php"><h1>syntrex</h1></a>
-                                    </div>
 
-                                    <div class="main-menu d-none d-lg-block">
-                                        <nav>
-                                            <ul id="navigation">
-                                                <li><a href="index.php">Home</a></li>
-                                                <li><a href="services.php">Services</a></li>
-                                                <li><a href="about.php">About</a></li>
-                                                <!-- <li><a href="#">Blog</a> -->
-                                                </li>
-                                                <li><a href="contact.php">Contact</a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
+    <style>
+        :root {
+            --primary: #0B3B4F;
+            --primary-2: #1F2937;
+            --accent: #14B8A6;
+            --accent-2: #ff6d6d;
+            --muted: #6b7280;
+            --bg: #1F2937;
+            --light: #F8FAFC;
+            --card: #ffffff;
+        }
 
-                                <div class="buttons">
-                                    <ul>
-                                        <li class="button-header">
-                                            <a href="contact.php" class="header-btn2 border-btn2">Get Free Quote</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+
+        /* NAV */
+        .navbar {
+            padding: .9rem 0;
+            background: transparent;
+            transition: all .3s ease
+        }
+
+        .navbar.scrolled {
+            background: rgba(8, 12, 40, .9);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .25)
+        }
+
+        .navbar .nav-link {
+            color: #e5e7eb !important;
+            opacity: .9
+        }
+
+        .navbar .nav-link:hover {
+            opacity: 1
+        }
+
+        .btn-quote {
+            border-radius: 999px;
+            font-weight: 600;
+            background: linear-gradient(90deg, var(--accent), var(--accent-2));
+            color: #fff;
+            border: 0
+        }
+
+        /* HERO */
+        .hero {
+            position: relative;
+            overflow: hidden;
+            color: #fff;
+            background:
+                radial-gradient(1200px 600px at 10% -10%,
+                    color-mix(in srgb, var(--accent-2) 25%, transparent),
+                    transparent 60%),
+                radial-gradient(1000px 600px at 110% 20%,
+                    rgba(102, 126, 234, .18),
+                    transparent 60%),
+                linear-gradient(180deg,
+                    var(--bg) 0%,
+                    var(--primary) 100%);
+        }
+
+        .hero .btn.btn-outline-light.rounded-pill {
+            background: transparent;
+            border: 2px solid;
+        }
+
+        .hero .btn.btn-outline-light.rounded-pil:hover {
+            background: #fff;
+            color: #FF4495;
+        }
+
+        .hero-min {
+            min-height: 84vh;
+            display: flex;
+            align-items: center
+        }
+
+        .hero h1 {
+            font-weight: 700;
+            letter-spacing: .3px;
+            color: #fff;
+        }
+
+        .hero p.lead {
+            color: #d1d5db;
+            max-width: 560px;
+            font-size: 16px;
+        }
+
+        /* Floating shapes */
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(1px);
+            opacity: .35;
+            mix-blend: screen
+        }
+
+        .orb.o1 {
+            width: 180px;
+            height: 180px;
+            background: #5a8cff;
+            top: 6%;
+            left: 6%;
+            animation: float 9s ease-in-out infinite
+        }
+
+        .orb.o2 {
+            width: 260px;
+            height: 260px;
+            background: #ff7db3;
+            top: 18%;
+            right: 12%;
+            animation: float 12s ease-in-out infinite
+        }
+
+        .orb.o3 {
+            width: 120px;
+            height: 120px;
+            background: #7cf3ff;
+            bottom: 8%;
+            right: 30%;
+            animation: float 10s ease-in-out infinite
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0)
+            }
+
+            50% {
+                transform: translateY(-14px)
+            }
+
+            100% {
+                transform: translateY(0)
+            }
+        }
+
+        .hero-illustration {
+            position: relative
+        }
+
+        .glass {
+            position: absolute;
+            inset: auto;
+            right: 8%;
+            top: 10%;
+            width: 66%;
+            height: 66%;
+            border-radius: 24px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, .12), rgba(255, 255, 255, .04));
+            border: 1px solid rgba(255, 255, 255, .25);
+            box-shadow: 0 20px 60px rgba(14, 18, 52, .35)
+        }
+
+        .hero-card {
+            background: rgba(255, 255, 255, .06);
+            border: 1px solid rgba(255, 255, 255, .25);
+            backdrop-filter: blur(6px);
+            border-radius: 1.25rem
+        }
+
+        /* SECTION UTILS */
+        .section {
+            padding: 90px 0
+        }
+
+        .section-muted {
+            background: #f7f9fc
+        }
+
+        .eyebrow {
+            letter-spacing: .16em;
+            text-transform: uppercase;
+            color: var(--accent);
+            font-weight: 700;
+            font-size: .85rem
+        }
+
+        .heading {
+            font-weight: 700
+        }
+
+        .subtle {
+            color: #6b7280
+        }
+
+        /* SERVICE ICONS */
+        .service {
+            background: #fff;
+            border-radius: 18px;
+            padding: 28px;
+            border: 1px solid #eef2f7;
+            box-shadow: 0 8px 30px rgba(17, 24, 39, .06);
+            height: 100%
+        }
+
+        .service .icon {
+            width: 52px;
+            height: 52px;
+            border-radius: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #eff6ff, #fdf2f8);
+            margin-bottom: 16px
+        }
+
+        /* Feature Block */
+        .feature-card {
+            border: 1px solid #eef2f7;
+            border-radius: 18px;
+            background: #fff;
+            box-shadow: 0 8px 30px rgba(17, 24, 39, .06)
+        }
+
+        /* Stats */
+        .stat {
+            border-radius: 18px;
+            border: 1px solid #eef2f7;
+            background: #fff;
+            box-shadow: 0 8px 30px rgba(17, 24, 39, .06);
+            padding: 30px
+        }
+
+        .stat .value {
+            font-size: 2rem;
+            font-weight: 700
+        }
+    </style>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white font-weight-bold" href="#">syntrex</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ml-auto align-items-lg-center">
+                    <li class="nav-item mx-2"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ml-lg-3 mt-2 mt-lg-0"><a class="btn btn-quote" href="#contact">Get Free
+                            Quote</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="home" class="hero hero-min">
+        <div class="orb o1"></div>
+        <div class="orb o2"></div>
+        <div class="orb o3"></div>
+        <div class="container position-relative">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <span class="eyebrow d-inline-block mb-3">Innovate • Automate • Scale</span>
+                    <h1 class="display-4 mb-3">Innovative <span class="text-warning">Software Services</span><br />and
+                        IT Solutions</h1>
+                    <p class="lead mb-4">Transforming businesses through innovative software solutions. Empowering
+                        success in a rapidly changing digital landscape.</p>
+                    <div class="lead-cta">
+                        <a href="#services" class="btn btn-quote mr-2 shadow-lgx">Our Services</a>
+                        <a href="#contact" class="btn btn-outline-light rounded-pill">Talk to an Expert</a>
                     </div>
-
-                    <div class="col-12">
-                        <div class="mobile_menu d-block d-lg-none"></div>
+                </div>
+                <div class="col-lg-6 hero-illustration">
+                    <div class="position-relative">
+                        <div class="glass" aria-hidden="true"></div>
+                        <img alt="Enterprise analytics & cloud illustration" class="img-fluid rounded-lg hero-card"
+                            src="/assets/img/hero/syntrex-banner.png" />
                     </div>
                 </div>
             </div>
