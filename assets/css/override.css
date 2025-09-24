@@ -14,3 +14,10 @@
 	font-weight: 500;
 	line-height: 0.5;
 }
+
+.navbar-brand {
+	font-size: 3rem;
+}
+.main-logo {
+	width: 200px;
+}

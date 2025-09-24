@@ -25,23 +25,14 @@
     <link rel="stylesheet" href="assets/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=1">
+    <link rel="stylesheet" href="assets/css/style.css?v=4">
     <link rel="stylesheet" href="assets/css/override.css">
 </head>
 
 <body>
 
     <style>
-        :root {
-            --primary: #0B3B4F;
-            --primary-2: #1F2937;
-            --accent: #14B8A6;
-            --accent-2: #ff6d6d;
-            --muted: #6b7280;
-            --bg: #1F2937;
-            --light: #F8FAFC;
-            --card: #ffffff;
-        }
+        
 
 
         /* NAV */
@@ -101,7 +92,7 @@
         }
 
         .hero-min {
-            min-height: 84vh;
+            min-height: 100vh;
             display: flex;
             align-items: center
         }
@@ -263,7 +254,9 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand text-white font-weight-bold" href="#">syntrex</a>
+            <a class="navbar-brand text-white font-weight-bold" href="#">
+                <img src="/assets/img/logo/syntrex-logo-white.png" class="main-logo">
+            </a>
             <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#mainNav"
                 aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -271,42 +264,13 @@
 
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="navbar-nav ml-auto align-items-lg-center">
-                    <li class="nav-item mx-2"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item mx-2"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item mx-2"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item mx-2"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item ml-lg-3 mt-2 mt-lg-0"><a class="btn btn-quote" href="#contact">Get Free
+                    <li class="nav-item mx-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="/services.php">Services</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="/about.php">About</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="/contact.php">Contact</a></li>
+                    <li class="nav-item ml-lg-3 mt-2 mt-lg-0"><a class="btn btn-quote" href="/contact.php">Get Free
                             Quote</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <!-- HERO -->
-    <header id="home" class="hero hero-min">
-        <div class="orb o1"></div>
-        <div class="orb o2"></div>
-        <div class="orb o3"></div>
-        <div class="container position-relative">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-5 mb-lg-0">
-                    <span class="eyebrow d-inline-block mb-3">Innovate • Automate • Scale</span>
-                    <h1 class="display-4 mb-3">Innovative <span class="text-warning">Software Services</span><br />and
-                        IT Solutions</h1>
-                    <p class="lead mb-4">Transforming businesses through innovative software solutions. Empowering
-                        success in a rapidly changing digital landscape.</p>
-                    <div class="lead-cta">
-                        <a href="#services" class="btn btn-quote mr-2 shadow-lgx">Our Services</a>
-                        <a href="#contact" class="btn btn-outline-light rounded-pill">Talk to an Expert</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 hero-illustration">
-                    <div class="position-relative">
-                        <div class="glass" aria-hidden="true"></div>
-                        <img alt="Enterprise analytics & cloud illustration" class="img-fluid rounded-lg hero-card"
-                            src="/assets/img/hero/syntrex-banner.png" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>

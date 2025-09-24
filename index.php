@@ -1,6 +1,34 @@
 <?php require_once('templates/header.php') ?>
     <main>
-
+        
+        <!-- HERO -->
+        <header id="home" class="hero hero-min">
+            <div class="orb o1"></div>
+            <div class="orb o2"></div>
+            <div class="orb o3"></div>
+            <div class="container position-relative">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <span class="eyebrow d-inline-block mb-3">Innovate • Automate • Scale</span>
+                        <h1 class="display-4 mb-3">Innovative <span class="text-warning">Software Services</span><br />and
+                            IT Solutions</h1>
+                        <p class="lead mb-4">Transforming businesses through innovative software solutions. Empowering
+                            success in a rapidly changing digital landscape.</p>
+                        <div class="lead-cta">
+                            <a href="#services" class="btn btn-quote mr-2 shadow-lgx">Our Services</a>
+                            <a href="#contact" class="btn btn-outline-light rounded-pill">Talk to an Expert</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 hero-illustration">
+                        <div class="position-relative">
+                            <div class="glass" aria-hidden="true"></div>
+                            <img alt="Enterprise analytics & cloud illustration" class="img-fluid rounded-lg hero-card"
+                                src="/assets/img/hero/syntrex-banner.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 
 
         <section class="categories-area section-padding">

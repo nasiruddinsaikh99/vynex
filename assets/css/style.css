@@ -1,31 +1,46 @@
+:root {
+    --primary: #0B3B4F;
+    --primary-2: #1F2937;
+    --accent: #14B8A6;
+    --accent-2: #ff6d6d;
+    --muted: #6b7280;
+    --bg: #1F2937;
+    --light: #F8FAFC;
+    --card: #ffffff;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
 
 .gray-bg {
     background: #F6F9FC
 }
 
+.text-warning {
+    color: var(--accent-2) !important;
+}
+
 .boxed-btn {
     background: #fff;
-    color: #FF4495 !important;
+    color: var(--accent) !important;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Mulish", sans-serif;
     font-size: 16px;
     font-weight: 500;
     border: 0;
-    border: 1px solid #FF4495;
+    border: 1px solid var(--accent);
     letter-spacing: 3px;
     text-align: center;
-    color: #FF4495;
+    color: var(--accent);
     text-transform: uppercase;
     cursor: pointer;
     letter-spacing: 0
 }
 
 .boxed-btn:hover {
-    background: #FF4495;
+    background: var(--accent);
     color: #fff !important;
-    border: 1px solid #FF4495
+    border: 1px solid var(--accent)
 }
 
 .boxed-btn:focus {
@@ -226,7 +241,7 @@ li {
 }
 
 #back-top {
-    background: #FF4495;
+    background: var(--accent);
     height: 50px;
     width: 50px;
     right: 31px;
@@ -452,7 +467,7 @@ li {
 
 .section-tittle span {
     font-family: "Josefin Sans", sans-serif;
-    color: #FF4495;
+    color: var(--accent);
     font-size: 16px;
     font-weight: 600;
     line-height: 1;
@@ -575,8 +590,8 @@ li {
 }
 
 .border-btn {
-    border: 1px solid #FF4495;
-    color: #FF4495;
+    border: 1px solid var(--accent);
+    color: var(--accent);
     background: none;
     text-transform: normal;
     padding: 13px 34px;
@@ -597,7 +612,7 @@ li {
 .border-btn i {
     font-size: 16px;
     margin-right: 10px;
-    color: #FF4495;
+    color: var(--accent);
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -683,11 +698,11 @@ li {
 }
 
 .border-btn2:hover {
-    color: #FF4495
+    color: var(--accent)
 }
 
 .border-btn2:hover i {
-    color: #FF4495
+    color: var(--accent)
 }
 
 .border-btn2:hover::before {
@@ -798,7 +813,7 @@ li {
     font-size: 17px;
     font-weight: 700;
     text-transform: capitalize;
-    color: #FF4495;
+    color: var(--accent);
     border-radius: 30px;
     cursor: pointer;
     display: inline-block;
@@ -846,8 +861,8 @@ li {
 }
 
 .btn_1 {
-    background-color: #FF4495;
-    border: 1px solid #FF4495;
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
     color: #fff !important;
     display: inline-block;
     padding: 16px 41px;
@@ -859,8 +874,8 @@ li {
 
 .btn_1:hover {
     background-color: #fff;
-    border: 1px solid #FF4495;
-    color: #FF4495 !important
+    border: 1px solid var(--accent);
+    color: var(--accent) !important
 }
 
 .btn.focus,
@@ -1553,7 +1568,7 @@ li {
 }
 
 .categories-area .single-cat .cat-icon {
-    color: #FF4495;
+    color: var(--accent);
     font-size: 50px;
     margin-bottom: 30px;
     display: block;
@@ -2299,7 +2314,7 @@ li {
 }
 
 .footer-area .info.error {
-    color: #FF4495
+    color: var(--accent)
 }
 
 .footer-bottom-area .footer-border {
@@ -2333,11 +2348,11 @@ li {
 }
 
 .footer-bottom-area .footer-copy-right p i {
-    color: #FF4495
+    color: var(--accent)
 }
 
 .footer-bottom-area .footer-copy-right p a {
-    color: #FF4495
+    color: var(--accent)
 }
 
 .footer-social a {
@@ -2363,7 +2378,7 @@ li {
 }
 
 .footer-social a:hover {
-    color: #FF4495;
+    color: var(--accent);
     background: #fff
 }
 
@@ -2412,7 +2427,7 @@ li {
 
 .blog_area a:hover,
 .blog_area a :hover {
-    background: -webkit-linear-gradient(131deg, #FF4495 0%, #FF4495 99%);
+    background: -webkit-linear-gradient(131deg, var(--accent) 0%, var(--accent) 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -2501,7 +2516,7 @@ li {
     left: 10px;
     display: block;
     color: #fff;
-    background-color: #FF4495;
+    background-color: var(--accent);
     padding: 8px 15px;
     border-radius: 5px
 }
@@ -2583,7 +2598,7 @@ li {
 }
 
 .blog_right_sidebar .search_widget .input-group button {
-    background: #FF4495;
+    background: var(--accent);
     border-left: 0;
     border: 1px solid #f0e9ff;
     padding: 4px 15px;
@@ -2701,7 +2716,7 @@ li {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-    background: #FF4495;
+    background: var(--accent);
     color: #fff !important;
     -webkit-text-fill-color: #fff;
     text-decoration: none;
@@ -3240,11 +3255,11 @@ li {
 }
 
 .categories-area .single-cat::before {
-    background: #ff4495;
-    background: -moz-linear-gradient(top, #ff4495 0%, #ff6d6d 100%);
-    background: -webkit-linear-gradient(top, #ff4495 0%, #ff6d6d 100%);
-    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4495', endColorstr='#ff6d6d', GradientType=0)
+    background: var(--accent);
+    background: -moz-linear-gradient(top, var(--accent) 0%, var(--accent-2) 100%);
+    background: -webkit-linear-gradient(top, var(--accent) 0%, var(--accent-2) 100%);
+    background: linear-gradient(to bottom, var(--accent) 0%, var(--accent-2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--accent)', endColorstr='var(--accent-2)', GradientType=0)
 }
 
 .services-area2 {
@@ -3266,19 +3281,19 @@ li {
 
 .btn,
 .video-icon a {
-    background: #ff4495;
-    background: -moz-linear-gradient(top, #ff4495 0%, #ff6d6d 100%);
-    background: -webkit-linear-gradient(top, #ff4495 0%, #ff6d6d 100%);
-    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4495', endColorstr='#ff6d6d', GradientType=0)
+    background: var(--accent);
+    background: -moz-linear-gradient(top, var(--accent) 0%, var(--accent-2) 100%);
+    background: -webkit-linear-gradient(top, var(--accent) 0%, var(--accent-2) 100%);
+    background: linear-gradient(to bottom, var(--accent) 0%, var(--accent-2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--accent)', endColorstr='var(--accent-2)', GradientType=0)
 }
 
 .btn::before {
-    background: #ff6d6d;
-    background: -moz-linear-gradient(top, #ff6d6d 0%, #ff4495 100%);
-    background: -webkit-linear-gradient(top, #ff6d6d 0%, #ff4495 100%);
-    background: linear-gradient(to bottom, #ff6d6d 0%, #ff4495 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6d6d', endColorstr='#ff4495', GradientType=0)
+    background: var(--accent-2);
+    background: -moz-linear-gradient(top, var(--accent-2) 0%, var(--accent) 100%);
+    background: -webkit-linear-gradient(top, var(--accent-2) 0%, var(--accent) 100%);
+    background: linear-gradient(to bottom, var(--accent-2) 0%, var(--accent) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--accent-2)', endColorstr='var(--accent)', GradientType=0)
 }
 
 .text-heading {
@@ -4404,26 +4419,26 @@ del {
 
 .boxed-btn {
     background: #fff;
-    color: #FF4495 !important;
+    color: var(--accent) !important;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Mulish", sans-serif;
     font-size: 16px;
     font-weight: 500;
     border: 0;
-    border: 1px solid #FF4495;
+    border: 1px solid var(--accent);
     letter-spacing: 3px;
     text-align: center;
-    color: #FF4495;
+    color: var(--accent);
     text-transform: uppercase;
     cursor: pointer;
     letter-spacing: 0
 }
 
 .boxed-btn:hover {
-    background: #FF4495;
+    background: var(--accent);
     color: #fff !important;
-    border: 1px solid #FF4495
+    border: 1px solid var(--accent)
 }
 
 .boxed-btn:focus {
@@ -4624,7 +4639,7 @@ li {
 }
 
 #back-top {
-    background: #FF4495;
+    background: var(--accent);
     height: 50px;
     width: 50px;
     right: 31px;
@@ -4850,7 +4865,7 @@ li {
 
 .section-tittle span {
     font-family: "Josefin Sans", sans-serif;
-    color: #FF4495;
+    color: var(--accent);
     font-size: 16px;
     font-weight: 600;
     line-height: 1;
@@ -4973,8 +4988,8 @@ li {
 }
 
 .border-btn {
-    border: 1px solid #FF4495;
-    color: #FF4495;
+    border: 1px solid var(--accent);
+    color: var(--accent);
     background: none;
     text-transform: normal;
     padding: 13px 34px;
@@ -4995,7 +5010,7 @@ li {
 .border-btn i {
     font-size: 16px;
     margin-right: 10px;
-    color: #FF4495;
+    color: var(--accent);
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -5081,11 +5096,11 @@ li {
 }
 
 .border-btn2:hover {
-    color: #FF4495
+    color: var(--accent)
 }
 
 .border-btn2:hover i {
-    color: #FF4495
+    color: var(--accent)
 }
 
 .border-btn2:hover::before {
@@ -5194,7 +5209,7 @@ li {
     font-size: 17px;
     font-weight: 700;
     text-transform: capitalize;
-    color: #FF4495;
+    color: var(--accent);
     border-radius: 30px;
     cursor: pointer;
     display: inline-block;
@@ -5242,8 +5257,8 @@ li {
 }
 
 .btn_1 {
-    background-color: #FF4495;
-    border: 1px solid #FF4495;
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
     color: #fff !important;
     display: inline-block;
     padding: 16px 41px;
@@ -5255,8 +5270,8 @@ li {
 
 .btn_1:hover {
     background-color: #fff;
-    border: 1px solid #FF4495;
-    color: #FF4495 !important
+    border: 1px solid var(--accent);
+    color: var(--accent) !important
 }
 
 .btn.focus,
@@ -5949,7 +5964,7 @@ li {
 }
 
 .categories-area .single-cat .cat-icon {
-    color: #FF4495;
+    color: var(--accent);
     font-size: 50px;
     margin-bottom: 30px;
     display: block;
@@ -6695,7 +6710,7 @@ li {
 }
 
 .footer-area .info.error {
-    color: #FF4495
+    color: var(--accent)
 }
 
 .footer-bottom-area .footer-border {
@@ -6729,11 +6744,11 @@ li {
 }
 
 .footer-bottom-area .footer-copy-right p i {
-    color: #FF4495
+    color: var(--accent)
 }
 
 .footer-bottom-area .footer-copy-right p a {
-    color: #FF4495
+    color: var(--accent)
 }
 
 .footer-social a {
@@ -6759,7 +6774,7 @@ li {
 }
 
 .footer-social a:hover {
-    color: #FF4495;
+    color: var(--accent);
     background: #fff
 }
 
@@ -6808,7 +6823,7 @@ li {
 
 .blog_area a:hover,
 .blog_area a :hover {
-    background: -webkit-linear-gradient(131deg, #FF4495 0%, #FF4495 99%);
+    background: -webkit-linear-gradient(131deg, var(--accent) 0%, var(--accent) 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -6897,7 +6912,7 @@ li {
     left: 10px;
     display: block;
     color: #fff;
-    background-color: #FF4495;
+    background-color: var(--accent);
     padding: 8px 15px;
     border-radius: 5px
 }
@@ -6979,7 +6994,7 @@ li {
 }
 
 .blog_right_sidebar .search_widget .input-group button {
-    background: #FF4495;
+    background: var(--accent);
     border-left: 0;
     border: 1px solid #f0e9ff;
     padding: 4px 15px;
@@ -7097,7 +7112,7 @@ li {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-    background: #FF4495;
+    background: var(--accent);
     color: #fff !important;
     -webkit-text-fill-color: #fff;
     text-decoration: none;
@@ -7636,11 +7651,11 @@ li {
 }
 
 .categories-area .single-cat::before {
-    background: #ff4495;
-    background: -moz-linear-gradient(top, #ff4495 0%, #ff6d6d 100%);
-    background: -webkit-linear-gradient(top, #ff4495 0%, #ff6d6d 100%);
-    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4495', endColorstr='#ff6d6d', GradientType=0)
+    background: var(--accent);
+    background: -moz-linear-gradient(top, var(--accent) 0%, var(--accent-2) 100%);
+    background: -webkit-linear-gradient(top, var(--accent) 0%, var(--accent-2) 100%);
+    background: linear-gradient(to bottom, var(--accent) 0%, var(--accent-2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--accent)', endColorstr='var(--accent-2)', GradientType=0)
 }
 
 .services-area2 {
@@ -7653,28 +7668,28 @@ li {
 
 .header-sticky.sticky-bar,
 .slider-area {
-    background: #00095e;
-    background: -moz-linear-gradient(left, #00095e 0%, #0c0c1f 100%);
-    background: -webkit-linear-gradient(left, #00095e 0%, #0c0c1f 100%);
-    background: linear-gradient(to right, #00095e 0%, #0c0c1f 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00095e', endColorstr='#0c0c1f', GradientType=1)
+    background: radial-gradient(1200px 600px at 10% -10%,
+    color-mix(in srgb, var(--accent-2) 25%, transparent),
+    transparent 60%),
+radial-gradient(1000px 600px at 110% 20%,
+    rgba(102, 126, 234, .18),
+    transparent 60%),
+linear-gradient(180deg,
+    var(--bg) 0%,
+    var(--primary) 100%);
 }
 
 .btn,
 .video-icon a {
-    background: #ff4495;
-    background: -moz-linear-gradient(top, #ff4495 0%, #ff6d6d 100%);
-    background: -webkit-linear-gradient(top, #ff4495 0%, #ff6d6d 100%);
-    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4495', endColorstr='#ff6d6d', GradientType=0)
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
 }
 
 .btn::before {
     background: linear-gradient(90deg, var(--accent-2), var(--accent));
-    /* background: -moz-linear-gradient(top, #ff6d6d 0%, #ff4495 100%);
-    background: -webkit-linear-gradient(top, #ff6d6d 0%, #ff4495 100%);
-    background: linear-gradient(to bottom, #ff6d6d 0%, #ff4495 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6d6d', endColorstr='#ff4495', GradientType=0) */
+    /* background: -moz-linear-gradient(top, var(--accent-2) 0%, var(--accent) 100%);
+    background: -webkit-linear-gradient(top, var(--accent-2) 0%, var(--accent) 100%);
+    background: linear-gradient(to bottom, var(--accent-2) 0%, var(--accent) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--accent-2)', endColorstr='var(--accent)', GradientType=0) */
 }
 
 .text-heading {
@@ -8829,7 +8844,7 @@ del {
 }
 .slicknav_menu {
     font-size: 16px;
-    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%);
+    background: linear-gradient(to bottom, var(--accent) 0%, var(--accent-2) 100%);
 
     padding: 5px;
     border-radius: 5px;

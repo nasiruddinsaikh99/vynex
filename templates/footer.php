@@ -27,24 +27,27 @@
                                 <div class="footer-tittle">
                                     <h4>Navigation</h4>
                                     <ul>
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/services.php">Services</a></li>
+                                        <li><a href="/about.php">About</a></li>
+                                        <li><a href="/contact.php">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-<!--                         <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>Services</h4>
+                                    <h4>Legal</h4>
                                     <ul>
-
+                                        <li><a href="/cancellation-refund.php">Cancellation & Refund</a></li>
+                                        <li><a href="/privacy-policy.php">Privacy Policy</a></li>
+                                        <li><a href="/terms-of-service.php">Terms of Service</a></li>
+                                        <li><a href="/shipping-policy.php">Digital Delivery Policy</a></li>
                                     </ul>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle mb-10">
