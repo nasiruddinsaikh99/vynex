@@ -15,8 +15,8 @@
                         <p class="lead mb-4">Transforming businesses through innovative software solutions. Empowering
                             success in a rapidly changing digital landscape.</p>
                         <div class="lead-cta">
-                            <a href="#services" class="btn btn-quote mr-2 shadow-lgx">Our Services</a>
-                            <a href="#contact" class="btn btn-outline-light rounded-pill">Talk to an Expert</a>
+                            <a href="/services.php" class="btn btn-quote mr-2 shadow-lgx">Our Services</a>
+                            <a href="/talk-to-expert.php" class="btn btn-outline-light rounded-pill">Talk to an Expert</a>
                         </div>
                     </div>
                     <div class="col-lg-6 hero-illustration">

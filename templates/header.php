@@ -254,7 +254,7 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand text-white font-weight-bold" href="#">
+            <a class="navbar-brand text-white font-weight-bold" href="/">
                 <img src="/assets/img/logo/syntrex-logo-white.png" class="main-logo">
             </a>
             <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#mainNav"
@@ -268,8 +268,7 @@
                     <li class="nav-item mx-2"><a class="nav-link" href="/services.php">Services</a></li>
                     <li class="nav-item mx-2"><a class="nav-link" href="/about.php">About</a></li>
                     <li class="nav-item mx-2"><a class="nav-link" href="/contact.php">Contact</a></li>
-                    <li class="nav-item ml-lg-3 mt-2 mt-lg-0"><a class="btn btn-quote" href="/contact.php">Get Free
-                            Quote</a></li>
+                    <li class="nav-item ml-lg-3 mt-2 mt-lg-0"><a class="btn btn-quote" href="/talk-to-expert.php">Talk to an Expert</a></li>
                 </ul>
             </div>
         </div>
